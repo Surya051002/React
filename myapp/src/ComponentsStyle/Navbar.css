@@ -1,18 +1,39 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 30;
-    overflow: hidden;
-  }
+img{
+  position: absolute;
+}
+.list{
   
-  li {
-    margin-right: 0px;
-    float: left;
-  }
+  position: relative;
+  list-style-type: none;
+  text-align: center;
+ 
+}
+li{
+  background-color: #40B5AD;
+  height: 40px;
+  float:left;
+  display: block;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 5px 10px 5px black;
   
-  li a ,input{
-    display: block;
-    padding: 8px;
-    width: 100px;
-    background-color:aliceblue;
-  }
+}
+.ele{
+  margin-left: 300px;
+}
+
+input{
+  margin-top: 390px;
+  margin-left: 35%;
+  width: 400px;
+  height: 30px;
+  border-radius: 10px;
+}
+button{
+  margin-top: 10px;
+  margin-left: 700px;
+}
+.Answer{
+  margin-top: 10px;
+  margin-left: 400px;
+}
